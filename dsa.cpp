@@ -4,18 +4,14 @@ int main(){
     int n;
     cin >> n;
     int i ;
-    for(i=n;i>=1;i--){
-        for(int j=0;j<=n-i;j++){
-            cout << " ";
+    int j;
+    int k;
+    for(i=1;i<=n;i++){
+        for(j=1;j<=i+2;j++){
+            cout << "*";
         }
-        for(int k=i; k>=1; k--){
-                
-                cout << "*";
-                
-        }
-        
-         cout << endl;
+        cout << endl;
     }
-       
-    }
+    
+}
    
