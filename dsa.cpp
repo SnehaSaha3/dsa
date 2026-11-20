@@ -6,12 +6,33 @@ int main(){
     int i ;
     int j;
     int k;
+    int l;
     for(i=1;i<=n;i++){
-        for(j=1;j<=i+2;j++){
+        for(j=1;j<=n-i;j++){
+            cout << " ";
+
+        }
+            for(k=1;k<=2*i-1;k++){
             cout << "*";
+            
         }
         cout << endl;
+     
     }
+
+    for (l=n-1;l>=1;l--){
+        for(j=1;j<=n-l;j++){
+            cout << " ";
+
+        }
+         for(k=1;k<=2*l-1;k++){
+            cout << "*";
+            
+        }
+        cout << endl;
+           
+        
     
+}
 }
    
